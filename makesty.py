@@ -1,9 +1,8 @@
-#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 from bs4 import BeautifulSoup
-from urllib import urlopen
-from StringIO import StringIO
+from urllib.request import urlopen
+from io import StringIO
 import gzip
 import re
 
